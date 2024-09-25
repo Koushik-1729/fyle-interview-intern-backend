@@ -57,7 +57,7 @@ def h_teacher_2():
 
 
 @pytest.fixture
-def h_principal():
+def h_principal_1():
     headers = {
         'X-Principal': json.dumps({
             'principal_id': 1,
@@ -66,3 +66,4 @@ def h_principal():
     }
 
     return headers
+
